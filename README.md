@@ -1,4 +1,4 @@
-# FusionHackathonSamples
+# Fusion Hackathon Samples
 These are some of the larger samples programs that I wrote to demonstrate specific concepts and used them during the Fusion 360 Hackathon.
 
 The samples are:
