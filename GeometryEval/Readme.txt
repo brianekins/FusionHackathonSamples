@@ -4,7 +4,4 @@ Permission to use, copy, modify, and distribute this software in object code for
 AUTODESK PROVIDES THIS PROGRAM "AS IS" AND WITH ALL FAULTS. AUTODESK SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR USE. AUTODESK, INC. DOES NOT WARRANT THAT THE OPERATION OF THE PROGRAM WILL BE UNINTERRUPTED OR ERROR FREE.
 --------------------------------------------------------------------------------------------
 Description
-This is an add-in that creates cutouts positioned at selected points.  When loaded, this add-in adds a new "Cutout Shapes" command into the CREATE panel of the MODEL workspace.  It lets you select a planar face and any points that lie on that face where it will create the specified shape using the specified size.
---------------------------------------------------------------------------------------------
-Functionality Demonstrated
-This sample demonstrates using the command functionality to show a preview of the command results.  It also demonstrates the ability to do custom filtering as part of a selection input.
+This is an add-in that is intended to help illustrate the concept of a surface's parametric space.  It adds a new command to the INSPECT panel that when selected lets you choose any face and then the option of showing sketch lines drawn along the UV space to illustrate the parametric space of the surface or showing sketch lines drawn to illustrate normals on the surface.  A "Density" setting on the argument specifies the number of lines or normals to draw where they are evenly spaced in parametric space. 
