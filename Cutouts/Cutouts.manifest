@@ -1,0 +1,12 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"addin",
+	"id":	"2d44865f-cdbf-4dec-8d71-3c93b7bf9f04",
+	"author":	"Brian Ekins",
+	"description":	{
+		"":	"Creates various shaped cutouts on the selected face at the specified locations."
+	},
+	"version":	"",
+	"runOnStartup":	false,
+	"supportedOS":	"windows|mac"
+}

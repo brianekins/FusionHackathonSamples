@@ -1,0 +1,12 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"addin",
+	"id":	"99699bcc-c7ae-4881-b8e8-5c887b3231a7",
+	"author":	"Brian Ekins",
+	"description":	{
+		"":	"Displays the proxy path of the selected entity."
+	},
+	"version":	"",
+	"runOnStartup":	false,
+	"supportedOS":	"windows|mac"
+}

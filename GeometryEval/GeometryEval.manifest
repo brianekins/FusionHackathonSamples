@@ -1,0 +1,12 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"addin",
+	"id":	"83ad4523-2326-4efc-9ecf-d35290d624f4",
+	"author":	"Brian Ekins",
+	"description":	{
+		"":	"Sample to visually illustrate the concept of a surface's parametric space."
+	},
+	"version":	"",
+	"runOnStartup":	false,
+	"supportedOS":	"windows|mac"
+}

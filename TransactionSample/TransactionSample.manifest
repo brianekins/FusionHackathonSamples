@@ -1,0 +1,9 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"script",
+	"author":	"Brian Ekins",
+	"description":	{
+		"":	"Demonstrates the use of a command to combine multiple operations into a single undo."
+	},
+	"supportedOS":	"windows|mac"
+}

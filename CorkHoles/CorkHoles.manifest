@@ -1,0 +1,12 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"addin",
+	"id":	"e3cd4864-10fd-49dc-a051-bc26ea48a7b5",
+	"author":	"Brian Ekins",
+	"description":	{
+		"":	"Demonstrates using the B-Rep and Geometry portion of the API to fill holes with corks."
+	},
+	"version":	"",
+	"runOnStartup":	false,
+	"supportedOS":	"windows|mac"
+}
