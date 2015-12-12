@@ -249,7 +249,7 @@ class MyCommandCreatedHandler(adsk.core.CommandCreatedEventHandler):
             selectInput = inputs.addSelectionInput('selectEnt', 'Bodies', 'Select 1 or more bodies.')
             selectInput.addSelectionFilter('Bodies')
             selectInput.setSelectionLimits(1, 0)
-                
+
             onExecute = MyExecuteHandler()
             command.execute.add(onExecute)
             handlers.append(onExecute)
