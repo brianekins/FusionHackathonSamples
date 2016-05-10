@@ -230,8 +230,11 @@ class MyExecuteHandler(adsk.core.CommandEventHandler):
 
                 lastTimelineObject = last
     
-            des = adsk.fusion.Design.cast(app.activeProduct)            
-            group = des.timeline.timelineGroups.add(firstTimelineObject.index, lastTimelineObject.index)
+            if firstTimelineObject and lastTimelineObject:
+                des = adsk.fusion.Design.cast(app.activeProduct)            
+                group = des.timeline.timelineGroups.add(firstTimelineObject.index, lastTimelineObject.index)
+            else:
+                ui.messageBox('No holes were found.')
         except:
             if ui:
                 ui.messageBox('Failed:\n{}'.format(traceback.format_exc()))

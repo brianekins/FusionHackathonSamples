@@ -1,0 +1,13 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"addin",
+	"id":	"61b3b9ba-a621-45d1-b60f-7449cfed5f18",
+	"author":	"Brian Ekins",
+	"description":	{
+		"":	"Create a construction point at the specified X,Y,Z coordinates."
+	},
+	"version":	"1.0",
+	"runOnStartup":	true,
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
